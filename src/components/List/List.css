@@ -1,0 +1,29 @@
+.list-content, .list-total {
+    padding: 1rem;
+}
+
+.list-row, .list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-cell {
+    flex: 1 1 0;
+    border-right: 0.1rem solid black;
+    padding: 0 0.5rem;
+}
+
+.list-cell-number {
+    text-align: right;
+}
+
+.list-header {
+    text-transform: capitalize;
+    font-weight: 500;
+    border-bottom: 0.1rem solid black;
+}
+
+.list-total {
+    font-weight: 500;
+}
